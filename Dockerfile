@@ -1,4 +1,4 @@
-FROM thakanki357/javaapp
+FROM thakanki357/javaapp:44
 ENV MAVEN_VERSION 3.3.9
 
 RUN mkdir -p /usr/share/maven \

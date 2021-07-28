@@ -1,4 +1,4 @@
-FROM tomcat
+FROM openjdk
 ENV MAVEN_VERSION 3.3.9
 
 RUN mkdir -p /usr/share/maven \

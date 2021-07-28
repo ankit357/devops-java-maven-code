@@ -1,3 +1,3 @@
 FROM openjdk
-COPY src/test/java/*Test.java
-CMD ["mvn test", "src/test/java/*Test.java"]
+COPY src/test/java/*Test.java /*Test.java
+CMD ["mvn test", "/*Test.java"]

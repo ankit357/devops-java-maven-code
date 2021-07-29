@@ -4,6 +4,8 @@ EXPOSE 80/tcp
 EXPOSE 80/udp
 EXPOSE 443
 
+VOLUME /myvol
+
 # copy the packaged jar file into our docker image
 COPY target/*.jar /java.jar
  
